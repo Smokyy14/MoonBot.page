@@ -12,8 +12,12 @@ body {
   overflow-y: auto;
 }
 
+/* 🔹 HERO con imagen de fondo */
 .hero {
-  background: url("https://files.catbox.moe/z6whqs.jpg") no-repeat center center/cover;
+  background-image: url("https://files.catbox.moe/z6whqs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -155,48 +159,6 @@ h1 {
   background: linear-gradient(45deg, #306d2a, #c1ffae);
 }
 
+/* 🔹 FOOTER */
 footer {
-  position: relative;
-  background: rgba(20, 20, 30, 0.9);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 0.9rem;
-  color: #aabaff;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-#footer a {
-  color: #aabaff;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-#footer a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 5px #aabaff;
-}
-
-.footer-buttons {
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
-  display: flex;
-  gap: 4px; /* separación de 4px */
-}
-
-.circle-btn {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background-image: url("https://files.catbox.moe/ts4hik.jpg");
-  background-size: cover;
-  background-position: center;
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.circle-btn:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(170, 186, 255, 0.5);
-}
+  positio
